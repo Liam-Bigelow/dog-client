@@ -1,0 +1,23 @@
+
+
+.pet-detals-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+
+    img {
+        width: 125px;
+        height: 125px;
+        border-radius: 10px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 12px
+    }
+}
+
+.pet-notes {
+    display: flex;
+}
