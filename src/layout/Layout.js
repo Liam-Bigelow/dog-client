@@ -1,6 +1,6 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom"
 import "./Layout.css"
-import Menu from "../menu/Menu";
+import Menu from "../menu/Menu"
 
 const Layout = () => {
   return (
@@ -16,6 +16,6 @@ const Layout = () => {
       </div>
     </div>
   )
-};
+}
 
-export default Layout;
+export default Layout

@@ -1,11 +1,8 @@
-
-
-
 const getSitter = async (): Promise<void> => {
-    return;
+    return
 }
 
 const sitterService = {
-    getSitter: getSitter
+    getSitter: getSitter,
 }
-export default sitterService;
+export default sitterService

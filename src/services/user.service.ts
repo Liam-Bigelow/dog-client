@@ -1,12 +1,8 @@
-
-
-
-
 const login = async (email: string, password: string): Promise<boolean> => {
     return true
 }
 
 const userService = {
-    login: login
+    login: login,
 }
-export default userService;
+export default userService

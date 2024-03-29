@@ -1,6 +1,4 @@
-
-
-type Status = "active" | "pending" | "denied";
+type Status = "active" | "pending" | "denied"
 type Booking = {
     id: string
     ownerId: string
@@ -12,10 +10,10 @@ type Booking = {
 }
 
 const getUpcomingBookings = async (): Promise<Booking[]> => {
-    return [];
+    return []
 }
 
 const bookingService = {
-    getUpcomingBookings: getUpcomingBookings
+    getUpcomingBookings: getUpcomingBookings,
 }
-export default bookingService;
+export default bookingService
